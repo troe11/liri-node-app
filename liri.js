@@ -103,7 +103,7 @@ var whatDoYouWant = function(){
     inquirer.prompt([{
         type:'list',
         message:'What would you like to do?',
-        choices:['Spotify a song','Read Luke Skywalker\'s tweets','Look up a movie','Nothing'],
+        choices:['Spotify a song','Read Luke Skywalker\'s tweets','Look up a movie','Hmm...'],
         name:'firstChoice'
     }]).then(function(choice){
         var userPick = choice.firstChoice;
