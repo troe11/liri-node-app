@@ -1,0 +1,35 @@
+{
+  "name": "request",
+  "version": "1.0.0",
+  "description": "Twitter",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troe11/liri-node-app.git"
+  },
+  "author": "none",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/troe11/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/troe11/liri-node-app#readme",
+  "keywords": [
+    "rap"
+  ],
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "inquirer": "^5.0.0",
+    "moment": "^2.20.1",
+    "node-spotify-api": "^1.0.7",
+    "omdb": "^0.8.0",
+    "request": "^2.83.0",
+    "simple-twitter": "^1.0.7",
+    "spotify": "^0.3.0",
+    "spotify-web-api-node": "^2.5.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {}
+}
